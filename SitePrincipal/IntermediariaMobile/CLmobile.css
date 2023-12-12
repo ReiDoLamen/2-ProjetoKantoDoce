@@ -1,0 +1,93 @@
+/* Reset de Estilos */
+html, body, header, footer, nav, ul, li, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("/SitePrincipal/IntermediariaMobile/imgFundo/fundoPrincipal.jpeg") center center fixed;
+    background-size: cover;
+    color: #433114;
+    line-height: 1.6;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #010103;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+/* BOTÕES*/
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin: 5px;
+}
+
+.btn-cadastrar {
+    background-image: linear-gradient(to bottom, #ffd700, #d7cda4);
+    color: #0b0808;
+    font-weight: bold;
+}
+
+.btn-logar {
+    background-image: linear-gradient(to bottom, #ffd700, #d7cda4);
+    color: #040303;
+    font-weight: bold;
+}
+
+.btn-cadastrar:hover,
+.btn-logar:hover {
+    background-color: #008ba3;
+    transform: scale(1.1);
+}
+
+/* media para ajustar para as telas */
+@media screen and (max-width: 768px) {
+    
+}

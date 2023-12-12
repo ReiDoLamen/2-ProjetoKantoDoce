@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("imgFundo/Design\ sem\ nome.png")  center center;
+    background-size: cover;
+    height: 20vh;
+    z-index: 1000;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    color: #8f74ca; /* Cor do texto em roxo mais escuro */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cadastrar {
+    background-color: #7d4cdb; /* Tom de roxo para o botão de cadastrar */
+    color: #fff; /* Cor do texto do botão cadastrar */
+    margin-right: 10px;
+}
+
+.btn-logar {
+    background-color: #b291e4; /* Tom de roxo para o botão de logar */
+    color: #fff; /* Cor do texto do botão logar */
+}
+
+button:hover {
+    background-color: #5b3b93; /* Tom mais escuro no hover */
+}
+
+#text-cadastro {
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#text-cadastro2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}

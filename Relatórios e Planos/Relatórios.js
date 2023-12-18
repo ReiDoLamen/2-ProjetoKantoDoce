@@ -411,13 +411,15 @@ PRETENÇÕES:
 > verificar o texto do cardapio e ajustar
 > fazer ajustes na coloração do CSS
 > iniciar a tela de cadastro 
+> Reformar a tela intermediaria (CSS)
 
 
 CONCLUIDOS (Até o momento):
 
 > implementação da pasta para iniciar a tela exclusiva da karol (Mais pra frente);
 > ajuste nos nomes das pastas de Relatório e adicionei outra para os planos gerais, ou seja planos que serão feitos mais pra frente
->
+> Implementação de divisória e comentario para identificação no CSS.
+> Ajuste na tela de Feedback (ajustando cores)
 
 PENDENTE (Ainda será feito hoje):
 

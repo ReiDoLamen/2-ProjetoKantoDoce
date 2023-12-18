@@ -312,6 +312,11 @@ h3.titulo span {
 
 /*ESTILO DO SOBRE*/
 
+section.sobre {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #59524f ; /*DIVISÕES DO SITE (coloridas)*/
+}
+
 .img-do-sobre {
     width: 400px;
 }
@@ -373,7 +378,7 @@ section.sobre .flex {
 
 section.portifolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #2a6371 ;
+    box-shadow: 0 0 40px 10px #59524f ; /*DIVISÕES DO SITE (coloridas)*/
 }
 
 section.portifolio .flex {
@@ -472,7 +477,7 @@ form .btn-enviar input:hover {
 
 footer {
     padding: 60px 4%;
-    box-shadow: 0 0 40px 10px #2a6371 ;
+    box-shadow: 0 0 40px 10px #59524f ; /*Divisória do Rodapé*/
 }
 
 footer .flex {

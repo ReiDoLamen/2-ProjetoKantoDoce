@@ -5,22 +5,37 @@
 }
 
 body {
-    background: url("imgFundoFeedback/planoDefundo.jpg") repeat center center;
-    height: 100vh;
+    background: url("imgFundoFeedback/Design\ sem\ nome.png") no-repeat center center;
+    background-size: cover;
+    height: 20vh;
+    z-index: 1000;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Kenia', sans-serif;
-    font-family: 'Pacifico', cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 1rem;
+    padding: 100px;
+    letter-spacing: 3px;
 }
 
-h1 {
-    font-size: 3rem;
-    color: #a56d04; /* Cor do título */
+h1 ,h2 {
+    font-size: 3rem; /* PARA SABER O valor de rem, fazer o numero de pixels dividido por 16 = rem*/
+    color: #cccccc;
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
+}
+
+h1::before {
+    content: "✉️";
+    display: block;
+}
+
+h2::before {
+    content: "👍";
+    display: block;
 }
 
 .form {
@@ -37,10 +52,12 @@ h1 {
     width: 100%;
 }
 
-.form label {
-    color: #fcfcfc; /* Cor das labels */
+form label {
+    color: #FFF;
     line-height: 1;
     margin-bottom: 0.5rem;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 .form input, .form textarea {
@@ -50,12 +67,16 @@ h1 {
     border: 1px solid transparent;
     border-radius: 8px;
     transition: border-color;
-    background: rgba(255, 204, 0, 0.8); /* Amarelo mais escuro */
+    box-shadow: 0.2s;
+    box-shadow: 1px 1px 10px #0187a7;
+    background: #8a8a8a;
 }
 
 .form textarea {
     min-height: 13rem;
     resize: vertical;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 .form input:hover,
@@ -63,14 +84,14 @@ h1 {
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: #ffcc00; /* Amarelo */
-    box-shadow: 0 0 0 3px #ffcc00; /* Amarelo */
-    border: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
 }
 
 .form button {
     display: block;
     padding: 1rem;
+    background: #0072c4;
     color: #070505;
     font: inherit;
     text-transform: uppercase;
@@ -80,10 +101,34 @@ h1 {
     transition: 0.2s;
     margin-bottom: 1rem;
     font-weight: bold;
-    background: linear-gradient(to bottom right, #FFD700, #a56d04); /* Degradê do amarelo escuro (#FFD700) para o amarelo mais claro (#FFA500) */
 }
 
 .form button:hover, 
 .form button:focus {
-    background: linear-gradient(to bottom right, #FFA500, #a56d04); /* Invertendo o degradê ao passar o mouse */
+    outline: none;
+    background: #09d;
+}
+
+.form input {
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+.form input::placeholder{
+    color:black;
+}
+
+.form textarea::placeholder{
+    color: black;
+}
+
+#FeedbacKanto {
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+#btn-voltar, #btn-enviar {
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
 }

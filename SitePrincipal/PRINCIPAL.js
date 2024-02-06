@@ -26,7 +26,11 @@ function Home1() {
 }
 
 function Login1(){
-    window.location.href = "/SitePrincipal/IntermediariaPC/CL.html";
+    window.location.href = "/SitePrincipal/EntrarPC/EntrarPC.html";
+}
+
+function Cadastro1(){
+    window.location.href = "/SitePrincipal/CadastroPC/cadastroPC.html";
 }
 
 // function enviado() {
@@ -76,6 +80,28 @@ function nextImage(){
     }
 
     document.getElementById("radio" + count).checked = true;
+}
+
+
+
+//Dropdown - funcionamento
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Fechar o dropdown se o usuário clicar fora dele
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
 
 

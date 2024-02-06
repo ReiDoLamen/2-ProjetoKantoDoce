@@ -411,20 +411,37 @@ PRETENÇÕES:
 > verificar o texto do cardapio e ajustar
 > fazer ajustes na coloração do CSS
 > iniciar a tela de cadastro 
-> Reformar a tela intermediaria (CSS)
 
 
 CONCLUIDOS (Até o momento):
 
 > implementação da pasta para iniciar a tela exclusiva da karol (Mais pra frente);
 > ajuste nos nomes das pastas de Relatório e adicionei outra para os planos gerais, ou seja planos que serão feitos mais pra frente
-> Implementação de divisória e comentario para identificação no CSS.
-> Ajuste na tela de Feedback (ajustando cores)
+>
 
 PENDENTE (Ainda será feito hoje):
 
 > verificar o texto do cardapio e ajustar
 > fazer ajustes na coloração do CSS
+-----------------------------------------
+--------------------------------------
+---------------------------------
+---------------------------
 
+ANO - 2024
+
+relatório - vini
+
+PRETENÇÕES
+
+> Implementação do novo dropDown
+> ajuste na tela de cadastro e ajuste na imagem
+> Ajuste nos caminhos das funções do javaScrip
+
+CONCLUIDOS:
+
+> Implementação do novo dropDown
+> ajuste na tela de cadastro e ajuste na imagem
+> Ajuste nos caminhos das funções do javaScrip
 
 */

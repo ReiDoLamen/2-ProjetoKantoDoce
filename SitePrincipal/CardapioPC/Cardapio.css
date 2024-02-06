@@ -336,11 +336,3 @@ body {
 #pedirPedido{
     width: 80px;
 }
-
-.itens-cardapio .info .descricao {
-    position: relative;
-    font-family: 'Recursive', sans-serif;
-    font-weight: bold;
-    word-wrap: break-word; /* Para quebrar palavras longas */
-    text-align: center; /* Alinhamento do texto */
-}

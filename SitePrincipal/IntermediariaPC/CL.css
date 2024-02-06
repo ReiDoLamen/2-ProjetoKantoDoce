@@ -1,23 +1,20 @@
+/* Reset e estilos básicos */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url("imgFundo/Design\ sem\ nome.png")  center center;
-    background-size: cover;
-    height: 20vh;
-    z-index: 1000;
+    background: url("imgFundo/Design sem nome.png") center center/cover;
+    height: 100vh;
 }
 
+/* Estilos do conteúdo */
 .container {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10vh;
     color: #8f74ca; /* Cor do texto em roxo mais escuro */
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
+/* Estilos dos botões */
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -27,29 +24,31 @@ button {
     transition: background-color 0.3s ease;
 }
 
-.btn-cadastrar {
-    background-color: #7d4cdb; /* Tom de roxo para o botão de cadastrar */
+#btn-cadastrar {
+    background-color: #b291e4; /* Tom de roxo para o botão de cadastrar */
     color: #fff; /* Cor do texto do botão cadastrar */
     margin-right: 10px;
 }
 
-.btn-logar {
-    background-color: #b291e4; /* Tom de roxo para o botão de logar */
-    color: #fff; /* Cor do texto do botão logar */
+#admK, .btn-logar {
+    background-color: #b291e4;
+    color: #fff;
 }
 
-button:hover {
+/* Hover dos botões */
+#admK:hover, #btn-cadastrar:hover, .btn-logar:hover {
     background-color: #5b3b93; /* Tom mais escuro no hover */
 }
 
+/* Estilos específicos para os textos */
 #text-cadastro {
     font-family: 'Ephesis', cursive;
-    font-size: 40px;
+    font-size: 24px; /* Reduzi o tamanho do texto para melhor legibilidade */
     font-weight: bold;
 }
 
 #text-cadastro2 {
     font-family: 'Ephesis', cursive;
-    font-size: 50px;
+    font-size: 36px; /* Reduzi o tamanho do texto para melhor legibilidade */
     font-weight: bold;
 }

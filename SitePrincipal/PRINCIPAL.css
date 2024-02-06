@@ -94,7 +94,7 @@ header {
 
 .login-button button {
     border: none;
-    background-color: #03bae7;
+    background-color: #e3eef1;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -273,16 +273,17 @@ section.especialidades .flex {
 }
 
 h3.titulo {
-    color:#0187a7;
+    color:#FFF;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
     font-family: 'Kenia', sans-serif;
     font-family: 'Pacifico', cursive;
+    letter-spacing:3px;
 }
 
 h3.titulo span {
-    color:#064e61;
+    color:#cccccc;
     font-family: 'Kenia', sans-serif;
     font-family: 'Pacifico', cursive;
 }
@@ -296,7 +297,7 @@ h3.titulo span {
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 14px #1a411b;
+    box-shadow: 0 0 14px rgba(0, 186, 243, 0.822);
 }
 
 .especialidades .especialidades-box i {
@@ -312,11 +313,6 @@ h3.titulo span {
 
 /*ESTILO DO SOBRE*/
 
-section.sobre {
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #59524f ; /*DIVISÕES DO SITE (coloridas)*/
-}
-
 .img-do-sobre {
     width: 400px;
 }
@@ -326,7 +322,7 @@ section.sobre {
 }
 
 .sobre .txt-sobre {
-    color:#0a1619;
+    color:#FFF;
     font-weight: bold;
     font-size: 20px;
 }
@@ -343,10 +339,11 @@ section.sobre .flex {
     font-family: 'Kenia', sans-serif;
     font-family: 'Pacifico', cursive;
     margin-bottom: 35px;
+    letter-spacing:3px;
 }
 
 .sobre .txt-sobre h7 span {
-    color: #1a411b;
+    color: #cccccc;
     display: block;
     font-family: 'Kenia', sans-serif;
     font-family: 'Pacifico', cursive;
@@ -357,12 +354,12 @@ section.sobre .flex {
     text-align: justify;
 }
 
- .btn-social button {
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: #0187a7;
+    background-color: #03bae7;
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -378,7 +375,6 @@ section.sobre .flex {
 
 section.portifolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #59524f ; /*DIVISÕES DO SITE (coloridas)*/
 }
 
 section.portifolio .flex {
@@ -435,14 +431,18 @@ form {
     margin-top: 40px;
 }
 
+form input::placeholder, form textarea::placeholder{
+    color:white;
+}
+
 form input, form textarea {
     width: 100%;
-    background-color: #0186a745;
+    background-color: #bbbbbb45;
     border: none;
     outline: none;
     padding: 20px 15px;
     border-radius: 20px;
-    color: black;
+    color: #FFF;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Kenia', sans-serif;
@@ -461,7 +461,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color:#0187a7 ;
+    background-color:rgba(3, 186, 231);
     color: black;
     cursor: pointer;
     transition: .2s;
@@ -477,7 +477,7 @@ form .btn-enviar input:hover {
 
 footer {
     padding: 60px 4%;
-    box-shadow: 0 0 40px 10px #59524f ; /*Divisória do Rodapé*/
+    
 }
 
 footer .flex {
@@ -502,6 +502,12 @@ footer .line-footer p {
     font-size: 30px;
     font-family: 'Kenia', sans-serif;
     font-family: 'Pacifico', cursive;
+    color: #FFF;
+    letter-spacing: 3px;
+}
+
+address{
+    color: #FFF;
 }
 
 
@@ -632,3 +638,47 @@ footer .line-footer p {
         background-attachment: fixed;
     }
 }
+
+
+/*DropDown CSS*/
+
+/* Estilos para o dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8aa1a3e3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: bold;    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #707578b9;}
+
+.show {display: block;}
+
+
+

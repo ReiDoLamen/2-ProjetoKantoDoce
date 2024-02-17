@@ -68,7 +68,7 @@ form label {
     border-radius: 8px;
     transition: border-color;
     box-shadow: 0.2s;
-    box-shadow: 1px 1px 10px #0187a7;
+    box-shadow: 1px 1px 5px #f2f2f2;
     background: #8a8a8a;
 }
 
@@ -84,15 +84,15 @@ form label {
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: #09d;
-    box-shadow: 0 0 0 3px #4dc8ff;
+    border-color: #e2f9f9fa;
+    box-shadow: 1px 1px 5px #f2f2f2;
 }
 
 .form button {
     display: block;
     padding: 1rem;
-    background: #0072c4;
-    color: #070505;
+    background: #4c4e50fa;
+    color: white;
     font: inherit;
     text-transform: uppercase;
     border: none;
@@ -115,11 +115,11 @@ form label {
 }
 
 .form input::placeholder{
-    color:black;
+    color:white;
 }
 
 .form textarea::placeholder{
-    color: black;
+    color: white;
 }
 
 #FeedbacKanto {

@@ -48,20 +48,21 @@ body {
 
 
 .itens-cardapio .info {
-    background-color: #ffffff96;
+    background-color: #707578fa;
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    box-shadow: 4px 4px 4px 1px rgba(23, 108, 123, 0.545);
+    box-shadow: white;
     width: 350px;
     height: 150px;
     border-radius: 16px;
 }
 
 #descricao{
+    color: white;
     position: relative;
     left: -138px;
     top: -36px;
@@ -70,6 +71,7 @@ body {
 }
 
 #descricao1{
+    color: white;
     position: relative;
     left: -90px;
     top: -36px;
@@ -78,6 +80,7 @@ body {
 }
 
 #descricao2{
+    color: white;
     position: relative;
     left: -143px;
     top: -36px;
@@ -86,6 +89,7 @@ body {
 }
 
 #descricao3{
+    color: white;
     position: relative;
     left: -130px;
     top: -36px;
@@ -94,6 +98,7 @@ body {
 }
 
 #descricao4{
+    color: white;
     position: relative;
     left: -150px;
     top: -36px;
@@ -102,6 +107,7 @@ body {
 }
 
 #descricao5{
+    color: white;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -112,6 +118,7 @@ body {
 }
 
 #descricao6{
+    color: white;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -122,6 +129,7 @@ body {
 }
 
 #descricao7{
+    color: white;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -132,6 +140,7 @@ body {
 }
 
 #descricao8{
+    color: white;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -142,9 +151,10 @@ body {
 }
 
 
+
 #valor{
     font-family: 'Recursive', sans-serif;
-    color:rgba(3, 117, 138, 0.911);
+    color:white;
     font-size: 22px;
     margin-bottom: 0;
     font-weight: bold;
@@ -155,7 +165,7 @@ body {
 
 #valor1{
     font-family: 'Recursive', sans-serif;
-    color: rgba(3, 117, 138, 0.911);
+    color: white;
     font-size: 22px;
     margin-bottom: 0;
     margin-top: 0;
@@ -189,11 +199,12 @@ body {
 .itens-cardapio .info .pedir {
     width: 200px;
     height: 30px;
-    background-color: #0b6e8f;
+    background-color: #545658fa;
     border-radius: 7px;
     text-transform: uppercase;
     cursor: pointer;
     border: none;
+    font-size: 13px;
     color: black;
     transition: all 200ms ease-in;
     position: relative;
@@ -205,9 +216,9 @@ body {
 } /*BOTÃO PEDIR AGORA*/
 
 .itens-cardapio .info .pedir:hover {
-    background-color: #14a4d4;
+    background-color: #828486fa;
     color: #000000;
-    box-shadow: 4px 4px 5px #0a3b3b92;
+    box-shadow: 4px 4px 5px #ffffff;
     font-weight: bold;
     font-size: 14px;
     transform: scale(1.08);
@@ -220,10 +231,10 @@ body {
 
 #voltarMenu {
   position: absolute;
-  top: 65px; /*distância do topo*/
-  left: 20px; /*distância da esquerda*/
+  top: 65px; 
+  left: 20px; 
   padding: 10px 20px;
-  background-color: #0b6e8f;
+  background-color: #545658fa;
   color: black;
   font-weight: bold;
   border: none;
@@ -237,7 +248,8 @@ body {
 
 #voltarMenu:hover{
     font-size: 19px;
-    background-color: #14a4d4;
+    background-color: #828486fa;
+    box-shadow: 4px 4px 5px #ffffff
 }
 
 /*Modal CSS Começo*/
